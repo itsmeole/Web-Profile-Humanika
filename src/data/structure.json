@@ -1,0 +1,174 @@
+{
+  "role": "Ketua Himpunan",
+  "children": [
+    {
+      "role": "Bendahara Umum",
+      "children": [
+        {
+          "role": "Wakil Bendahara Umum",
+          "children": [],
+          "name": "Manda Selvia",
+          "image": "/pengurus/Wakil Bendahara Umum - Manda Selvia.png",
+          "period": "2025-2026"
+        }
+      ],
+      "name": "Selviana Sukma Ayu",
+      "image": "/pengurus/Bendahara Umum - Selviana Sukma Ayu.png",
+      "period": "2025-2026"
+    },
+    {
+      "role": "Sekretaris Umum",
+      "name": "M Adi Wiaya",
+      "image": "/pengurus/Sekretaris Umum M Adi Wiaya.png",
+      "children": [
+        {
+          "role": "Wakil Sekretaris Umum",
+          "children": [],
+          "name": "Dinna Nurcahyani",
+          "image": "/pengurus/Wakil Sekretaris Umum - Dinna Nurcahyani.png",
+          "period": "2025-2026"
+        }
+      ],
+      "period": "2025-2026"
+    },
+    {
+      "role": "Ketua Divisi Tekinkom",
+      "children": [
+        {
+          "role": "Anggota Divisi Tekinkom",
+          "name": "Deswita Putri",
+          "image": "/pengurus/Anggota Divisi Tekinkom - Deswita Putri.png",
+          "children": [],
+          "period": "2025-2026"
+        },
+        {
+          "role": "Anggota Divisi Tekinkom",
+          "name": "Nazriel Radithya",
+          "image": "/pengurus/Anggota Divisi Tekinkom - nazriel Radithya.png",
+          "children": [],
+          "period": "2025-2026"
+        },
+        {
+          "role": "Bendahara Divisi Tekinkom",
+          "name": "Imel apriliani",
+          "image": "/pengurus/Bnedahara Divisi Tekinkom -  Imel apriliani.png",
+          "children": [],
+          "period": "2025-2026"
+        },
+        {
+          "role": "Sekretaris Divisi Tekinkom",
+          "name": "Dian agustin",
+          "image": "/pengurus/Sekretaris Divisi Tekinkom - Dian agustin.png",
+          "children": [],
+          "period": "2025-2026"
+        }
+      ],
+      "name": "Leonard Putra",
+      "image": "/pengurus/Ketua Divisi Tekinkom - Leonard Putra.png",
+      "originalRole": "Ketua Divisi Tekinkom",
+      "period": "2025-2026"
+    },
+    {
+      "role": "Ketua Divisi Eksternal",
+      "children": [
+        {
+          "role": "Anggota divisi Eksternal",
+          "name": "Ripqy Putra",
+          "image": "/pengurus/Anggota divisi Eksternal-Ripqy Putra.png",
+          "children": [],
+          "period": "2025-2026"
+        },
+        {
+          "role": "Bendahara Divisi Eksternal",
+          "name": "Zyaad",
+          "image": "/pengurus/Bendahara Divisi Eksternal - Zyaad.png",
+          "children": [],
+          "period": "2025-2026"
+        },
+        {
+          "role": "Sekretaris Divisi Eksternal",
+          "name": "Genta Abdurrahman",
+          "image": "/uploads/1766850493381-Sekretaris_Divisi_Eksternal.png",
+          "children": [],
+          "period": "2025-2026"
+        }
+      ],
+      "name": "M Fadillah",
+      "image": "/pengurus/Ketua Divisi Ekternal - M Fadillah.png",
+      "originalRole": "Ketua Divisi Ekternal",
+      "period": "2025-2026"
+    },
+    {
+      "role": "Ketua Divisi Kemahasiswaan",
+      "children": [
+        {
+          "role": "Bendahara Divisi Kemahasiswaan",
+          "name": "Rifa Azzahra",
+          "image": "/pengurus/Bendahara Divisi Kemahasiswaan - Rifa Azzahra.png",
+          "children": [],
+          "period": "2025-2026"
+        },
+        {
+          "role": "Sekretaris Divisi Kemahasiswaan",
+          "name": "Indra Fauzi",
+          "image": "/pengurus/Sekretaris Divisi Kemahasiswaan - Indra Fauzi.png",
+          "children": [],
+          "period": "2025-2026"
+        }
+      ],
+      "name": "Rifal Ardian",
+      "image": "/pengurus/Ketua divisi Kemahasiswaan - Rifal Ardian.png",
+      "originalRole": "Ketua divisi Kemahasiswaan",
+      "period": "2025-2026"
+    },
+    {
+      "role": "Ketua Divisi MBKO",
+      "children": [
+        {
+          "role": "Bendahara Divisi MBKO",
+          "name": "Kohar B Sukatma",
+          "image": "/pengurus/Bendahara Divisi MBKO - Kohar B Sukatma.png",
+          "children": [],
+          "period": "2025-2026"
+        },
+        {
+          "role": "Sekretaris Divisi MBKO",
+          "name": "Muhammad Muahied",
+          "image": "/pengurus/Sekretaris Divisi MBKO - Muhammad Muahied.png",
+          "children": [],
+          "period": "2025-2026"
+        }
+      ],
+      "name": "Gani Firdaus",
+      "image": "/pengurus/Ketua Divisi MBKO - Gani Firdaus.png",
+      "originalRole": "Ketua Divisi MBKO",
+      "period": "2025-2026"
+    },
+    {
+      "role": "Ketua Divisi Danus",
+      "children": [
+        {
+          "role": "Bendahara Divisi Danus",
+          "name": "Syeira Ramadhani",
+          "image": "/pengurus/Bnedahara Divisi Danus - Syeira Ramadhani.png",
+          "children": [],
+          "period": "2025-2026"
+        },
+        {
+          "role": "Sekretaris Divisi Danus",
+          "name": "Eldi Hapyadin",
+          "image": "/pengurus/Sekretaris Divisi Danus - Eldi Hapyadin.png",
+          "children": [],
+          "period": "2025-2026"
+        }
+      ],
+      "name": "Fachry Gunawan",
+      "image": "/pengurus/Ketua Divisi Danus - Fachry Gunawan.png",
+      "originalRole": "Ketua Divisi Danus",
+      "period": "2025-2026"
+    }
+  ],
+  "name": "Tri Puspitasari",
+  "image": "/pengurus/Ketua Himpunan - Tri Puspitasari.png",
+  "period": "2025-2026"
+}

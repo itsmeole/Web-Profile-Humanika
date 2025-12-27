@@ -1,0 +1,113 @@
+{
+    "Ketua Umum": {
+        "tugas": [
+            "Bertanggung jawab atas keseluruhan aktivitas HUMANIKA baik internal maupun eksternal.",
+            "Merencakan dan melaksanakan kegiatan berdasarkan GBHO dan GBPK.",
+            "Bertanggung jawab kepada Mahasiswa Teknik Informatika melalui sidang.",
+            "Mempertanggungjawabkan hasil kerja dalam musyawarah mahasiswa.",
+            "Berhak mengganti struktur kepengurusan jika diperlukan.",
+            "Menghadiri undangan organisasi intra maupun eksternal kampus."
+        ],
+        "fungsi": [
+            "Bertanggungjawab atas penyelengaraan Program kerja pengurus.",
+            "Melaksanakan kebijakan umum mengenai urusan penyelenggaraan kegiatan.",
+            "Menjalin kerjasama dengan HMJ lain, BEM, Struktural dan Yayasan.",
+            "Memimpin penyelenggaraan kegiatan HUMANIKA.",
+            "Menyusun anggaran dana global HUMANIKA bersama bendahara.",
+            "Mempertahankan dan memelihara keutuhan Mahasiswa Teknik Informatika."
+        ]
+    },
+    "Sekretaris Umum": {
+        "tugas": [
+            "Bertanggung jawab pada terlaksananya tertib administrasi (surat menyurat & inventaris).",
+            "Bertanggung jawab atas terselenggaranya rapat antar pengurus.",
+            "Meningkatkan kesolidasian internal pengurus HUMANIKA.",
+            "Bertanggungjawab kepada ketua umum dalam rapat internal."
+        ],
+        "fungsi": [
+            "Second leader yang menjadi pelaksana tugas ketua umum jika berhalangan.",
+            "Pelaksana tugas lain yang diberikan oleh ketua Umum."
+        ]
+    },
+    "Bendahara Umum": {
+        "tugas": [
+            "Bertanggung jawab dalam pengelolaan keuangan HUMANIKA.",
+            "Bertanggung jawab atas pendistribusian uang kemahasiswaan.",
+            "Menciptakan tertib keuangan organisasi dan pengeloaan kekayaan HUMANIKA."
+        ],
+        "fungsi": [
+            "Bertanggung jawab pada ketua umum dalam rapat internal.",
+            "Mengetahui alur dana kemahasiswaan yang dipakai dalam program kerja seluruh divisi."
+        ]
+    },
+    "Divisi Kemahasiswaan": {
+        "tugas": [
+            "Menjalin kerjasama kegiatan dengan BEM, UKM dan organisasi mahasiswa lain.",
+            "Mengistimulus mahasiswa agar berpikir kritis transsendental.",
+            "Mengadakan follow up pasca Mabim dan Lensha.",
+            "Memfasilitasi audiensi antara anggota HUMANIKA dengan Struktural.",
+            "Mencari minat dan bakat anggota untuk kaderisasi."
+        ],
+        "fungsi": [
+            "Memberikan rasa aman dan menjaga kestabilan anggota.",
+            "Menampung aspirasi anggota HUMANIKA.",
+            "Mewujudkan kader yang berkualitas dan kritis.",
+            "Menyelenggarakan program pengkaderan yang berkesinambungan."
+        ]
+    },
+    "Divisi Eksternal": {
+        "tugas": [
+            "Menghadiri undangan kegiatan Teknik Informatika dari kampus lain.",
+            "Mewujudkan kerjasama bilateral dan regional (Jawa Barat, Nasional).",
+            "Meningkatkan peran aktif di PERMIKOMNAS.",
+            "Memperkuat citra PERMIKOMNAS dan HUMANIKA.",
+            "Mengoptimalkan diplomasi HUMANIKA."
+        ],
+        "fungsi": [
+            "Membangun Eksistensi HUMANIKA terhadap dunia luar.",
+            "Memperluas Jaringan HUMANIKA.",
+            "Membangun Rasa Simpati dan Empati Mahasiswa.",
+            "Menjaga nama dan citra Baik HUMANIKA."
+        ]
+    },
+    "Divisi Teknologi, Informasi & Komunikasi": {
+        "tugas": [
+            "Membimbing pengurus dalam keahlian TEKINKOM.",
+            "Mengadakan kegiatan minat bakat bidang TEKINKOM.",
+            "Membangun komunikasi dengan organisasi internal/eksternal.",
+            "Melakukan penelitian, pengkajian, dan inovasi teknologi.",
+            "Mengelola sosial media HUMANIKA."
+        ],
+        "fungsi": [
+            "Menjalankan fungsi pencerdasan melalui buletin/media.",
+            "Membangun citra positif HUMANIKA.",
+            "Membangun kerjasama dengan lembaga/instansi."
+        ]
+    },
+    "Divisi Minat Bakat Kesenian dan Olahraga": {
+        "tugas": [
+            "Membina anggota dalam kegiatan seni dan olahraga.",
+            "Menyusun program pengembangan minat bakat seni dan olahraga.",
+            "Mengkoordinasikan event seni dan olahraga.",
+            "Mencari minat dan bakat anggota."
+        ],
+        "fungsi": [
+            "Merencanakan jadwal latihan bersama.",
+            "Mengembangkan nilai estetika dan fisik.",
+            "Wadah minat dan bakat anggota.",
+            "Menjalin solidaritas dan sportifitas."
+        ]
+    },
+    "Divisi Dana Usaha": {
+        "tugas": [
+            "Membuat link kerjasama dengan instansi lain.",
+            "Melaksanakan kegiatan berorientasi profit yang halal.",
+            "Mencari sumber pembiayaan kegiatan HUMANIKA."
+        ],
+        "fungsi": [
+            "Mengadakan usaha pendanaan organisasi.",
+            "Menyusun laporan keuangan dana usaha.",
+            "Berkoordinasi dengan Bendahara Umum."
+        ]
+    }
+}

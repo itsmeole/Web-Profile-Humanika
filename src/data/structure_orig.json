@@ -1,0 +1,151 @@
+{
+  "role": "Ketua Himpunan",
+  "children": [
+    {
+      "role": "Bendahara Umum",
+      "children": [
+        {
+          "role": "Wakil Bendahara Umum",
+          "children": [],
+          "name": "Manda Selvia",
+          "image": "/pengurus/Wakil Bendahara Umum - Manda Selvia.png"
+        }
+      ],
+      "name": "Selviana Sukma Ayu",
+      "image": "/pengurus/Bendahara Umum - Selviana Sukma Ayu.png"
+    },
+    {
+      "role": "Sekretaris Umum",
+      "name": "M Adi Wiaya",
+      "image": "/pengurus/Sekretaris Umum M Adi Wiaya.png",
+      "children": [
+        {
+          "role": "Wakil Sekretaris Umum",
+          "children": [],
+          "name": "Dinna Nurcahyani",
+          "image": "/pengurus/Wakil Sekretaris Umum - Dinna Nurcahyani.png"
+        }
+      ]
+    },
+    {
+      "role": "Ketua Divisi Tekinkom",
+      "children": [
+        {
+          "role": "Anggota Divisi Tekinkom",
+          "name": "Deswita Putri",
+          "image": "/pengurus/Anggota Divisi Tekinkom - Deswita Putri.png",
+          "children": []
+        },
+        {
+          "role": "Anggota Divisi Tekinkom",
+          "name": "nazriel Radithya",
+          "image": "/pengurus/Anggota Divisi Tekinkom - nazriel Radithya.png",
+          "children": []
+        },
+        {
+          "role": "Bendahara Divisi Tekinkom",
+          "name": "Imel apriliani",
+          "image": "/pengurus/Bnedahara Divisi Tekinkom -  Imel apriliani.png",
+          "children": []
+        },
+        {
+          "role": "Sekretaris Divisi Tekinkom",
+          "name": "Dian agustin",
+          "image": "/pengurus/Sekretaris Divisi Tekinkom - Dian agustin.png",
+          "children": []
+        }
+      ],
+      "name": "Leonard Putra",
+      "image": "/pengurus/Ketua Divisi Tekinkom - Leonard Putra.png",
+      "originalRole": "Ketua Divisi Tekinkom"
+    },
+    {
+      "role": "Ketua Divisi Eksternal",
+      "children": [
+        {
+          "role": "Anggota divisi Eksternal",
+          "name": "Ripqy Putra",
+          "image": "/pengurus/Anggota divisi Eksternal-Ripqy Putra.png",
+          "children": []
+        },
+        {
+          "role": "Bendahara Divisi Eksternal",
+          "name": "Zyaad",
+          "image": "/pengurus/Bendahara Divisi Eksternal - Zyaad.png",
+          "children": []
+        },
+        {
+          "role": "Sekretaris Divisi Eksternal",
+          "name": "Genta Abdurrahman",
+          "image": "/pengurus/Sekretaris Divisi Eksternal - Genta Abdurrahman.png",
+          "children": []
+        }
+      ],
+      "name": "M Fadillah",
+      "image": "/pengurus/Ketua Divisi Ekternal - M Fadillah.png",
+      "originalRole": "Ketua Divisi Ekternal"
+    },
+    {
+      "role": "Ketua Divisi Kemahasiswaan",
+      "children": [
+        {
+          "role": "Bendahara Divisi Kemahasiswaan",
+          "name": "Rifa Azzahra",
+          "image": "/pengurus/Bendahara Divisi Kemahasiswaan - Rifa Azzahra.png",
+          "children": []
+        },
+        {
+          "role": "Sekretaris Divisi Kemahasiswaan",
+          "name": "Indra Fauzi",
+          "image": "/pengurus/Sekretaris Divisi Kemahasiswaan - Indra Fauzi.png",
+          "children": []
+        }
+      ],
+      "name": "Rifal Ardian",
+      "image": "/pengurus/Ketua divisi Kemahasiswaan - Rifal Ardian.png",
+      "originalRole": "Ketua divisi Kemahasiswaan"
+    },
+    {
+      "role": "Ketua Divisi MBKO",
+      "children": [
+        {
+          "role": "Bendahara Divisi MBKO",
+          "name": "Kohar B Sukatma",
+          "image": "/pengurus/Bendahara Divisi MBKO - Kohar B Sukatma.png",
+          "children": []
+        },
+        {
+          "role": "Sekretaris Divisi MBKO",
+          "name": "Muhammad Muahied",
+          "image": "/pengurus/Sekretaris Divisi MBKO - Muhammad Muahied.png",
+          "children": []
+        }
+      ],
+      "name": "Gani Firdaus",
+      "image": "/pengurus/Ketua Divisi MBKO - Gani Firdaus.png",
+      "originalRole": "Ketua Divisi MBKO"
+    },
+    {
+      "role": "Ketua Divisi Danus",
+      "children": [
+        {
+          "role": "Bendahara Divisi Danus",
+          "name": "Syeira Ramadhani",
+          "image": "/pengurus/Bnedahara Divisi Danus - Syeira Ramadhani.png",
+          "children": []
+        },
+        {
+          "role": "Sekretaris Divisi Danus",
+          "name": "Eldi Hapyadin",
+          "image": "/pengurus/Sekretaris Divisi Danus - Eldi Hapyadin.png",
+          "children": []
+        }
+      ],
+      "name": "Fachry Gunawan",
+      "image": "/pengurus/Ketua Divisi Danus - Fachry Gunawan.png",
+      "originalRole": "Ketua Divisi Danus"
+    }
+  ],
+  "name": "Tri Puspitasari",
+  "image": "/pengurus/Ketua Himpunan - Tri Puspitasari.png"
+}
