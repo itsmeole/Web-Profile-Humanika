@@ -56,7 +56,7 @@ export default function Home() {
         <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-humanika-blue/5 via-transparent to-transparent pointer-events-none"></div>
         <Container className="space-y-16 relative z-10">
           <div className="text-center space-y-4">
-            <h2 className="text-4xl font-bold text-white">Tentang Kami</h2>
+            <h2 className="text-4xl font-bold text-foreground">Tentang Kami</h2>
             <div className="h-1 w-20 bg-gradient-to-r from-humanika-blue to-humanika-pink mx-auto rounded-full"></div>
             <p className="text-muted-foreground max-w-2xl mx-auto">
               Garis-Garis Besar Haluan Organisasi (GBHO) sebagai pedoman langkah juang Himpunan.
@@ -68,38 +68,38 @@ export default function Home() {
             <div className="flex-1 space-y-8 min-w-0">
 
               {/* Makna Lambang (New) */}
-              <div className="group rounded-2xl bg-white/5 border border-white/10 hover:border-humanika-pink/50 hover:shadow-2xl hover:shadow-humanika-pink/10 transition-all duration-300 p-8">
+              <div className="group rounded-2xl glass-card hover:border-humanika-pink/50 hover:shadow-2xl hover:shadow-humanika-pink/10 transition-all duration-300 p-8">
                 <h3 className="text-2xl font-bold text-humanika-blue mb-4 group-hover:text-humanika-pink transition-colors">Makna Lambang</h3>
                 <ol className="list-[lower-alpha] pl-5 space-y-3 text-muted-foreground leading-relaxed">
-                  <li><span className="text-white font-medium">Lingkaran panah berwarna hijau berjumlah empat:</span> bermakna kesinambungan dan kekompakan yang tak pernah habis / putus.</li>
-                  <li><span className="text-white font-medium">Roda gigi berwarna biru berjumlah enam belas:</span> bermakna ilmu pengetahuan dan teknologi.</li>
-                  <li><span className="text-white font-medium">Perisai berwarna merah dan putih:</span> bermakna prinsip perjuangan bangsa Indonesia.</li>
-                  <li><span className="text-white font-medium">Huruf IF (Informatika) berwarna emas:</span> bermakna kejayaan teknologi informasi menguasai dunia.</li>
-                  <li><span className="text-white font-medium">Bendera berkibar berwarna biru bertulis “HUMANIKA”:</span> bermakna Himpunan Mahasiswa Teknik Informatika tetap eksis untuk kebenaran dan kejayaan almamater.</li>
+                  <li><span className="text-foreground font-medium">Lingkaran panah berwarna hijau berjumlah empat:</span> bermakna kesinambungan dan kekompakan yang tak pernah habis / putus.</li>
+                  <li><span className="text-foreground font-medium">Roda gigi berwarna biru berjumlah enam belas:</span> bermakna ilmu pengetahuan dan teknologi.</li>
+                  <li><span className="text-foreground font-medium">Perisai berwarna merah dan putih:</span> bermakna prinsip perjuangan bangsa Indonesia.</li>
+                  <li><span className="text-foreground font-medium">Huruf IF (Informatika) berwarna emas:</span> bermakna kejayaan teknologi informasi menguasai dunia.</li>
+                  <li><span className="text-foreground font-medium">Bendera berkibar berwarna biru bertulis “HUMANIKA”:</span> bermakna Himpunan Mahasiswa Teknik Informatika tetap eksis untuk kebenaran dan kejayaan almamater.</li>
                 </ol>
               </div>
 
               {/* Slogan */}
-              <div className="group rounded-2xl bg-white/5 border border-white/10 hover:border-humanika-pink/50 hover:shadow-2xl hover:shadow-humanika-pink/10 transition-all duration-300 p-8">
+              <div className="group rounded-2xl glass-card hover:border-humanika-pink/50 hover:shadow-2xl hover:shadow-humanika-pink/10 transition-all duration-300 p-8">
                 <h3 className="text-2xl font-bold text-humanika-blue mb-4 group-hover:text-humanika-pink transition-colors uppercase tracking-widest">Slogan</h3>
-                <p className="text-2xl font-serif italic text-white leading-relaxed">
+                <p className="text-2xl font-serif italic text-foreground leading-relaxed">
                   "Perempuan Berdaya, informatika berkarya, dari akademik untuk aksi, dari perempuan untuk perubahan"
                 </p>
               </div>
 
               {/* Visi & Misi */}
-              <div className="group rounded-2xl bg-white/5 border border-white/10 hover:border-humanika-pink/50 hover:shadow-2xl hover:shadow-humanika-pink/10 transition-all duration-300 p-8">
+              <div className="group rounded-2xl glass-card hover:border-humanika-pink/50 hover:shadow-2xl hover:shadow-humanika-pink/10 transition-all duration-300 p-8">
                 <h3 className="text-2xl font-bold text-humanika-blue mb-4 group-hover:text-humanika-pink transition-colors">Visi & Misi</h3>
 
                 <div className="mb-8">
-                  <h4 className="text-lg font-bold text-white mb-2">Visi</h4>
+                  <h4 className="text-lg font-bold text-foreground mb-2">Visi</h4>
                   <p className="text-muted-foreground leading-relaxed text-lg italic">
                     "Humanika menjadi rumah mahasiswa Teknik Informatika yang unggul dalam prestasi akademik, inovasi ideologi, serta menjadi ruang perjuangan untuk semua mahasiswa dan pemberdayaan perempuan untuk berdaya, setara."
                   </p>
                 </div>
 
                 <div>
-                  <h4 className="text-lg font-bold text-white mb-2">Misi</h4>
+                  <h4 className="text-lg font-bold text-foreground mb-2">Misi</h4>
                   <ol className="list-decimal pl-5 space-y-3 text-muted-foreground leading-relaxed">
                     <li>Meningkatkan kualitas akademik melalui forum belajar bersama, riset kolaboratif, dan kompetisi teknologi.</li>
                     <li>Menjalin kerja sama dengan industri dan alumni untuk memperluas peluang magang, riset, dan karier.</li>
@@ -113,7 +113,7 @@ export default function Home() {
               </div>
 
               {/* Tugas & Wewenang (Stacked) */}
-              <div className="group rounded-2xl bg-white/5 border border-white/10 hover:border-humanika-pink/50 hover:shadow-2xl hover:shadow-humanika-pink/10 transition-all duration-300 p-8">
+              <div className="group rounded-2xl glass-card hover:border-humanika-pink/50 hover:shadow-2xl hover:shadow-humanika-pink/10 transition-all duration-300 p-8">
                 <h3 className="text-2xl font-bold text-humanika-blue mb-4 group-hover:text-humanika-pink transition-colors">Tugas & Wewenang</h3>
                 <ul className="list-disc pl-5 space-y-3 text-muted-foreground leading-relaxed">
                   <li>Menjalankan ketetapan – ketetapan MUMAS Himpunan Mahasiswa Teknik Informatika ke- XX STT Wastukancana Purwakarta sebagai sebuah organisasi</li>
@@ -123,7 +123,7 @@ export default function Home() {
               </div>
 
               {/* Status Pengurus (Stacked) */}
-              <div className="group rounded-2xl bg-white/5 border border-white/10 hover:border-humanika-pink/50 hover:shadow-2xl hover:shadow-humanika-pink/10 transition-all duration-300 p-8">
+              <div className="group rounded-2xl glass-card hover:border-humanika-pink/50 hover:shadow-2xl hover:shadow-humanika-pink/10 transition-all duration-300 p-8">
                 <h3 className="text-2xl font-bold text-humanika-blue mb-4 group-hover:text-humanika-pink transition-colors">Status Pengurus</h3>
                 <p className="text-muted-foreground leading-relaxed">
                   Pengurus adalah lembaga regional yang mengutamakan kegiatan pembinaan dan pelatihan anggota yang berorientasi pada teknologi untuk kepentingan masyarakat dengan masa jabatan 1 (satu) periode sejak dilantik dan ditetapkan oleh Presiden BEM STT Wastukancana Purwakarta, dalam keadaan tertentu jika Pengurus HUMANIKA tidak ada yang melantik maka yang melantik adalah Ketua Program Studi / Sekretaris Program Study atau jika diperlukan dapat dilantik langsung oleh Ketua STT Wastukancana Purwakarta
@@ -160,13 +160,13 @@ export default function Home() {
       </section>
 
       {/* Structure Section */}
-      <section id="structure" className="py-24 bg-black/20 border-y border-white/5 relative overflow-hidden">
+      <section id="structure" className="py-24 bg-muted/30 border-y border-border relative overflow-hidden">
         <div className="absolute -right-40 -top-40 w-96 h-96 bg-humanika-pink/10 rounded-full blur-3xl pointer-events-none"></div>
         <div className="absolute -left-40 -bottom-40 w-96 h-96 bg-humanika-blue/10 rounded-full blur-3xl pointer-events-none"></div>
 
         <Container>
           <div className="text-center space-y-4 mb-16">
-            <h2 className="text-4xl font-bold text-white">Struktur Organisasi</h2>
+            <h2 className="text-4xl font-bold text-foreground">Struktur Organisasi</h2>
             <div className="h-1 w-20 bg-gradient-to-r from-humanika-pink to-humanika-blue mx-auto rounded-full"></div>
             <p className="text-muted-foreground">
               Susunan kepengurusan periode 2025-2026.
@@ -185,7 +185,7 @@ export default function Home() {
         <Container>
           <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-12 gap-4">
             <div className="space-y-4">
-              <h2 className="text-4xl font-bold text-white">Berita & Kegiatan</h2>
+              <h2 className="text-4xl font-bold text-foreground">Berita & Kegiatan</h2>
               <div className="h-1 w-20 bg-gradient-to-r from-humanika-blue to-humanika-pink rounded-full"></div>
             </div>
             <Link href="/news" className="hidden md:block">
@@ -195,7 +195,7 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {newsData.slice(0, 3).map((news) => (
-              <div key={news.id} className="group flex flex-col overflow-hidden rounded-2xl bg-white/5 border border-white/10 hover:border-humanika-pink/50 hover:shadow-2xl hover:shadow-humanika-pink/10 transition-all duration-300">
+              <div key={news.id} className="group flex flex-col overflow-hidden rounded-2xl glass-card hover:border-humanika-pink/50 hover:shadow-2xl hover:shadow-humanika-pink/10 transition-all duration-300">
                 <div className="h-48 w-full bg-muted/20 relative overflow-hidden">
                   {/* News Image */}
                   {(news as any).image ? (
@@ -218,14 +218,14 @@ export default function Home() {
 
                 <div className="p-6 flex flex-col flex-1">
                   <span className="text-xs text-humanika-blue font-mono mb-2 block">{news.date}</span>
-                  <h3 className="text-xl font-bold text-white mb-3 group-hover:text-humanika-pink transition-colors line-clamp-2">
+                  <h3 className="text-xl font-bold text-foreground mb-3 group-hover:text-humanika-pink transition-colors line-clamp-2">
                     {news.title}
                   </h3>
                   <p className="text-muted-foreground text-sm line-clamp-3 mb-4 flex-1">
                     {news.summary}
                   </p>
                   <Link href={`/news/${news.id}`} className="mt-auto">
-                    <span className="text-sm font-medium text-white group-hover:text-humanika-pink flex items-center gap-2 transition-colors">
+                    <span className="text-sm font-medium text-foreground group-hover:text-humanika-pink flex items-center gap-2 transition-colors">
                       Baca Selengkapnya <span className="group-hover:translate-x-1 transition-transform">&rarr;</span>
                     </span>
                   </Link>

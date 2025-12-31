@@ -139,7 +139,7 @@ export const OrgCarousel = ({ data }: { data: OrgNodeData }) => {
                                 >
                                     <div className={cn(
                                         "relative overflow-hidden rounded-3xl transition-all duration-300 h-[450px] shadow-2xl",
-                                        isFocused ? "bg-white/5 shadow-humanika-pink/10" : "bg-white/0 grayscale hover:grayscale-0"
+                                        isFocused ? "bg-white/90 dark:bg-white/5 shadow-humanika-pink/10" : "bg-white/0 grayscale hover:grayscale-0"
                                     )}>
                                         <div className="absolute inset-0">
                                             {/* Parallax Image Effect container */}
@@ -157,7 +157,7 @@ export const OrgCarousel = ({ data }: { data: OrgNodeData }) => {
                                                 )}
                                             </div>
                                             {/* Text Background Overlay - Enhanced for readability */}
-                                            <div className="absolute inset-0 bg-gradient-to-t from-[#020617] via-[#020617]/80 to-transparent opacity-90"></div>
+                                            <div className="absolute inset-0 bg-gradient-to-t from-[#020617] via-[#020617]/25 to-transparent opacity-90"></div>
                                         </div>
                                         <div className="absolute bottom-0 p-8 text-left w-full translate-y-2 group-hover:translate-y-0 transition-transform">
                                             <h3 className="text-3xl font-bold text-white leading-tight mb-3 drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]">{leader.name || "Vacant"}</h3>
@@ -175,11 +175,11 @@ export const OrgCarousel = ({ data }: { data: OrgNodeData }) => {
 
             {/* Controls */}
             <div className="flex gap-6 mt-8 z-20">
-                <button onClick={scrollPrev} className="p-4 rounded-full bg-black/50 border border-white/10 hover:bg-humanika-pink hover:border-humanika-pink hover:scale-110 transition-all backdrop-blur-sm group">
-                    <ChevronLeft className="text-white group-hover:text-white" size={28} />
+                <button onClick={scrollPrev} className="p-4 rounded-full bg-background/50 dark:bg-black/50 border border-border hover:bg-humanika-pink hover:border-humanika-pink hover:scale-110 transition-all backdrop-blur-sm group">
+                    <ChevronLeft className="text-foreground group-hover:text-white" size={28} />
                 </button>
-                <button onClick={scrollNext} className="p-4 rounded-full bg-black/50 border border-white/10 hover:bg-humanika-pink hover:border-humanika-pink hover:scale-110 transition-all backdrop-blur-sm group">
-                    <ChevronRight className="text-white group-hover:text-white" size={28} />
+                <button onClick={scrollNext} className="p-4 rounded-full bg-background/50 dark:bg-black/50 border border-border hover:bg-humanika-pink hover:border-humanika-pink hover:scale-110 transition-all backdrop-blur-sm group">
+                    <ChevronRight className="text-foreground group-hover:text-white" size={28} />
                 </button>
             </div>
 
@@ -196,7 +196,7 @@ export const OrgCarousel = ({ data }: { data: OrgNodeData }) => {
                             animate={{ scale: 1, y: 0, opacity: 1 }}
                             exit={{ scale: 0.9, y: 50, opacity: 0 }}
                             transition={{ type: "spring", stiffness: 200, damping: 25 }}
-                            className="bg-[#0f172a] border border-white/10 w-full max-w-7xl h-[90vh] rounded-[2rem] overflow-hidden flex flex-col md:flex-row shadow-2xl relative"
+                            className="bg-background dark:bg-[#0f172a] border border-border w-full max-w-7xl h-[90vh] rounded-[2rem] overflow-hidden flex flex-col md:flex-row shadow-2xl relative"
                             onClick={(e) => e.stopPropagation()}
                         >
                             {/* Left: Profile */}
@@ -228,48 +228,48 @@ export const OrgCarousel = ({ data }: { data: OrgNodeData }) => {
                             </div>
 
                             {/* Right: Details (Scrollable) */}
-                            <div className="flex-1 overflow-y-auto custom-scrollbar relative bg-[#0f172a]">
+                            <div className="flex-1 overflow-y-auto custom-scrollbar relative bg-background dark:bg-[#0f172a]">
                                 <div className="p-8 md:p-12 space-y-12">
                                     <button
                                         onClick={() => setSelectedLeader(null)}
-                                        className="absolute top-8 right-8 p-3 bg-white/5 hover:bg-white/10 hover:text-white rounded-full text-zinc-400 hidden md:flex transition-all z-20 scale-100 hover:scale-110"
+                                        className="absolute top-8 right-8 p-3 bg-muted hover:bg-muted/80 text-muted-foreground rounded-full hidden md:flex transition-all z-20 scale-100 hover:scale-110"
                                     >
                                         <X size={24} />
                                     </button>
 
                                     {/* Job Description */}
                                     <div className="animate-in fade-in slide-in-from-bottom-4 duration-500 delay-100">
-                                        <h3 className="text-3xl font-bold text-white mb-8 flex items-center gap-4">
+                                        <h3 className="text-3xl font-bold text-foreground mb-8 flex items-center gap-4">
                                             <div className="h-10 w-1.5 bg-gradient-to-b from-humanika-pink to-purple-600 rounded-full"></div>
                                             Tugas & Wewenang
                                         </h3>
                                         <div className="grid md:grid-cols-2 gap-8 md:gap-12">
                                             <div className="space-y-4">
-                                                <h4 className="flex items-center gap-3 font-bold text-humanika-blue text-sm tracking-widest uppercase border-b border-white/10 pb-2">
+                                                <h4 className="flex items-center gap-3 font-bold text-humanika-blue text-sm tracking-widest uppercase border-b border-border pb-2">
                                                     <span className="w-2 h-2 rounded-full bg-humanika-blue"></span>
                                                     Tugas Pokok
                                                 </h4>
                                                 <ul className="space-y-4">
                                                     {(roleDescriptions as any)[getJobDescKey(selectedLeader.role)]?.tugas?.map((t: string, i: number) => (
-                                                        <li key={i} className="text-zinc-300 leading-relaxed flex items-start gap-3">
-                                                            <span className="mt-2 w-1.5 h-1.5 rounded-full bg-white/20 shrink-0"></span>
+                                                        <li key={i} className="text-muted-foreground leading-relaxed flex items-start gap-3">
+                                                            <span className="mt-2 w-1.5 h-1.5 rounded-full bg-foreground/20 shrink-0"></span>
                                                             {t}
                                                         </li>
-                                                    )) || <li className="text-zinc-500 italic">Tidak ada data tugas spesifik.</li>}
+                                                    )) || <li className="text-muted-foreground italic">Tidak ada data tugas spesifik.</li>}
                                                 </ul>
                                             </div>
                                             <div className="space-y-4">
-                                                <h4 className="flex items-center gap-3 font-bold text-humanika-blue text-sm tracking-widest uppercase border-b border-white/10 pb-2">
+                                                <h4 className="flex items-center gap-3 font-bold text-humanika-blue text-sm tracking-widest uppercase border-b border-border pb-2">
                                                     <span className="w-2 h-2 rounded-full bg-humanika-blue"></span>
                                                     Fungsi
                                                 </h4>
                                                 <ul className="space-y-4">
                                                     {(roleDescriptions as any)[getJobDescKey(selectedLeader.role)]?.fungsi?.map((t: string, i: number) => (
-                                                        <li key={i} className="text-zinc-300 leading-relaxed flex items-start gap-3">
-                                                            <span className="mt-2 w-1.5 h-1.5 rounded-full bg-white/20 shrink-0"></span>
+                                                        <li key={i} className="text-muted-foreground leading-relaxed flex items-start gap-3">
+                                                            <span className="mt-2 w-1.5 h-1.5 rounded-full bg-foreground/20 shrink-0"></span>
                                                             {t}
                                                         </li>
-                                                    )) || <li className="text-zinc-500 italic">Tidak ada data fungsi spesifik.</li>}
+                                                    )) || <li className="text-muted-foreground italic">Tidak ada data fungsi spesifik.</li>}
                                                 </ul>
                                             </div>
                                         </div>
@@ -278,26 +278,26 @@ export const OrgCarousel = ({ data }: { data: OrgNodeData }) => {
                                     {/* Members / Hierarchy */}
                                     {(selectedLeader.children && selectedLeader.children.length > 0) && (
                                         <div className="animate-in fade-in slide-in-from-bottom-4 duration-500 delay-200">
-                                            <div className="h-px w-full bg-gradient-to-r from-transparent via-white/10 to-transparent my-10"></div>
-                                            <h3 className="text-3xl font-bold text-white mb-8 flex items-center gap-4">
+                                            <div className="h-px w-full bg-gradient-to-r from-transparent via-border to-transparent my-10"></div>
+                                            <h3 className="text-3xl font-bold text-foreground mb-8 flex items-center gap-4">
                                                 <div className="h-10 w-1.5 bg-gradient-to-b from-humanika-blue to-cyan-500 rounded-full"></div>
-                                                Anggota Tim <span className="text-zinc-500 text-lg font-normal ml-2">({selectedLeader.children.length})</span>
+                                                Anggota Tim <span className="text-muted-foreground text-lg font-normal ml-2">({selectedLeader.children.length})</span>
                                             </h3>
                                             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-6">
                                                 {selectedLeader.children.map((child, i) => (
                                                     <div
                                                         key={i}
                                                         onClick={() => handleMemberClick(child)}
-                                                        className="group flex items-center gap-5 p-5 rounded-2xl bg-white/5 border border-white/5 hover:border-humanika-pink/50 hover:bg-white/[0.07] transition-all hover:shadow-lg hover:shadow-humanika-pink/5 hover:-translate-y-1 cursor-pointer"
+                                                        className="group flex items-center gap-5 p-5 rounded-2xl bg-muted/30 dark:bg-white/5 border border-border hover:border-humanika-pink/50 hover:bg-muted/50 dark:hover:bg-white/[0.07] transition-all hover:shadow-lg hover:shadow-humanika-pink/5 hover:-translate-y-1 cursor-pointer"
                                                     >
-                                                        <div className="relative h-20 w-20 rounded-full overflow-hidden border-2 border-white/10 shrink-0 group-hover:border-humanika-pink transition-colors shadow-lg">
+                                                        <div className="relative h-20 w-20 rounded-full overflow-hidden border-2 border-border shrink-0 group-hover:border-humanika-pink transition-colors shadow-lg">
                                                             {child.image ? (
                                                                 <Image src={child.image} alt={child.name || ""} fill className="object-cover" />
-                                                            ) : <div className="w-full h-full bg-muted flex items-center justify-center"><User size={32} className="text-zinc-500" /></div>}
+                                                            ) : <div className="w-full h-full bg-muted flex items-center justify-center"><User size={32} className="text-muted-foreground" /></div>}
                                                         </div>
                                                         <div className="min-w-0">
-                                                            <h5 className="font-bold text-white text-lg truncate mb-1 group-hover:text-humanika-pink transition-colors">{child.name || "Vacant"}</h5>
-                                                            <p className="text-sm text-zinc-400 font-medium truncate">{child.role}</p>
+                                                            <h5 className="font-bold text-foreground text-lg truncate mb-1 group-hover:text-humanika-pink transition-colors">{child.name || "Vacant"}</h5>
+                                                            <p className="text-sm text-muted-foreground font-medium truncate">{child.role}</p>
                                                         </div>
                                                     </div>
                                                 ))}

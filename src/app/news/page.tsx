@@ -18,7 +18,7 @@ export default function NewsPage() {
 
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                         {newsData.map((news) => (
-                            <div key={news.id} className="group flex flex-col rounded-xl bg-white/5 border border-white/10 hover:border-primary/50 hover:bg-white/10 transition-all overflow-hidden h-full">
+                            <div key={news.id} className="group flex flex-col rounded-xl glass-card hover:border-primary/50 hover:bg-white/10 dark:hover:bg-white/10 transition-all overflow-hidden h-full">
                                 <div className="h-48 w-full bg-muted/20 relative overflow-hidden">
                                     {(news as any).image ? (
                                         <Image
@@ -34,7 +34,7 @@ export default function NewsPage() {
                                 <div className="p-6 flex flex-col justify-between flex-1">
                                     <div>
                                         <span className="text-xs text-secondary font-mono mb-2 block">{news.date}</span>
-                                        <h2 className="text-xl font-bold text-white mb-3 group-hover:text-primary transition-colors">
+                                        <h2 className="text-xl font-bold text-foreground mb-3 group-hover:text-primary transition-colors">
                                             {news.title}
                                         </h2>
                                         <p className="text-muted-foreground text-sm line-clamp-3">

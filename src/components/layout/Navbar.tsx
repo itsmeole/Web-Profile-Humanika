@@ -17,7 +17,7 @@ export const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <nav className="sticky top-0 z-50 w-full border-b border-white/10 bg-background/80 backdrop-blur-md">
+        <nav className="sticky top-0 z-50 w-full border-b border-border bg-background/80 backdrop-blur-md">
             <div className="w-full px-6 md:px-12">
                 <div className="flex h-17 items-center justify-between">
                     {/* Logo */}
@@ -61,7 +61,7 @@ export const Navbar = () => {
 
             {/* Mobile Nav */}
             {isOpen && (
-                <div className="md:hidden border-t border-white/10 bg-background/95 backdrop-blur-xl">
+                <div className="md:hidden border-t border-border bg-background/95 backdrop-blur-xl">
                     <Container className="py-4 space-y-2">
                         {links.map((link) => (
                             <Link

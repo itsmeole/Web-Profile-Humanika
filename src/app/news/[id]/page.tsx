@@ -34,13 +34,13 @@ export default async function NewsDetailPage({ params }: Props) {
                     <article className="space-y-6">
                         <div className="space-y-2">
                             <span className="text-secondary font-mono">{news.date}</span>
-                            <h1 className="text-3xl md:text-5xl font-bold text-white leading-tight">
+                            <h1 className="text-3xl md:text-5xl font-bold text-foreground leading-tight">
                                 {news.title}
                             </h1>
                         </div>
 
                         {(news as any).image && (
-                            <div className="relative w-full h-[400px] rounded-2xl overflow-hidden my-8 border border-white/10">
+                            <div className="relative w-full h-[400px] rounded-2xl overflow-hidden my-8 border border-border">
                                 <Image
                                     src={(news as any).image}
                                     alt={news.title}
@@ -51,9 +51,9 @@ export default async function NewsDetailPage({ params }: Props) {
                             </div>
                         )}
 
-                        <div className="h-px w-full bg-white/10 my-8"></div>
+                        <div className="h-px w-full bg-border my-8"></div>
 
-                        <div className="prose prose-invert max-w-none text-lg leading-relaxed text-muted-foreground">
+                        <div className="prose dark:prose-invert max-w-none text-lg leading-relaxed text-muted-foreground">
                             {/* In a real app this would be HTML or Markdown content */}
                             <p>{news.summary}</p>
                         </div>
