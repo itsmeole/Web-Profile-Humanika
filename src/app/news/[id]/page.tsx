@@ -53,7 +53,7 @@ export default async function NewsDetailPage({ params }: Props) {
 
                         <div className="h-px w-full bg-border my-8"></div>
 
-                        <div className="prose dark:prose-invert max-w-none text-lg leading-relaxed text-muted-foreground">
+                        <div className="prose prose-invert max-w-none text-lg leading-relaxed text-muted-foreground">
                             {/* In a real app this would be HTML or Markdown content */}
                             <p>{news.summary}</p>
                         </div>

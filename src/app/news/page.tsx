@@ -18,7 +18,7 @@ export default function NewsPage() {
 
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                         {newsData.map((news) => (
-                            <div key={news.id} className="group flex flex-col rounded-xl glass-card hover:border-primary/50 hover:bg-white/10 dark:hover:bg-white/10 transition-all overflow-hidden h-full">
+                            <div key={news.id} className="group flex flex-col rounded-xl glass-card hover:border-primary/50 hover:bg-white/10 transition-all overflow-hidden h-full">
                                 <div className="h-48 w-full bg-muted/20 relative overflow-hidden">
                                     {(news as any).image ? (
                                         <Image

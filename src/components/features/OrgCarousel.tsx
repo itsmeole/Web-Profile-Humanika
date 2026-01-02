@@ -139,7 +139,7 @@ export const OrgCarousel = ({ data }: { data: OrgNodeData }) => {
                                 >
                                     <div className={cn(
                                         "relative overflow-hidden rounded-3xl transition-all duration-300 h-[450px] shadow-2xl",
-                                        isFocused ? "bg-white/90 dark:bg-white/5 shadow-humanika-pink/10" : "bg-white/0 grayscale hover:grayscale-0"
+                                        isFocused ? "bg-white/5 shadow-humanika-pink/10" : "bg-white/0 grayscale hover:grayscale-0"
                                     )}>
                                         <div className="absolute inset-0">
                                             {/* Parallax Image Effect container */}
@@ -175,11 +175,11 @@ export const OrgCarousel = ({ data }: { data: OrgNodeData }) => {
 
             {/* Controls */}
             <div className="flex gap-6 mt-8 z-20">
-                <button onClick={scrollPrev} className="p-4 rounded-full bg-background/50 dark:bg-black/50 border border-border hover:bg-humanika-pink hover:border-humanika-pink hover:scale-110 transition-all backdrop-blur-sm group">
-                    <ChevronLeft className="text-foreground group-hover:text-white" size={28} />
+                <button onClick={scrollPrev} className="p-4 rounded-full bg-black/50 border border-border hover:bg-humanika-pink hover:border-humanika-pink hover:scale-110 transition-all backdrop-blur-sm group">
+                    <ChevronLeft className="text-white group-hover:text-white" size={28} />
                 </button>
-                <button onClick={scrollNext} className="p-4 rounded-full bg-background/50 dark:bg-black/50 border border-border hover:bg-humanika-pink hover:border-humanika-pink hover:scale-110 transition-all backdrop-blur-sm group">
-                    <ChevronRight className="text-foreground group-hover:text-white" size={28} />
+                <button onClick={scrollNext} className="p-4 rounded-full bg-black/50 border border-border hover:bg-humanika-pink hover:border-humanika-pink hover:scale-110 transition-all backdrop-blur-sm group">
+                    <ChevronRight className="text-white group-hover:text-white" size={28} />
                 </button>
             </div>
 
@@ -196,7 +196,7 @@ export const OrgCarousel = ({ data }: { data: OrgNodeData }) => {
                             animate={{ scale: 1, y: 0, opacity: 1 }}
                             exit={{ scale: 0.9, y: 50, opacity: 0 }}
                             transition={{ type: "spring", stiffness: 200, damping: 25 }}
-                            className="bg-background dark:bg-[#0f172a] border border-border w-full max-w-7xl h-[90vh] rounded-[2rem] overflow-hidden flex flex-col md:flex-row shadow-2xl relative"
+                            className="bg-[#0f172a] border border-border w-full max-w-7xl h-[90vh] rounded-[2rem] overflow-hidden flex flex-col md:flex-row shadow-2xl relative"
                             onClick={(e) => e.stopPropagation()}
                         >
                             {/* Left: Profile */}
@@ -228,7 +228,7 @@ export const OrgCarousel = ({ data }: { data: OrgNodeData }) => {
                             </div>
 
                             {/* Right: Details (Scrollable) */}
-                            <div className="flex-1 overflow-y-auto custom-scrollbar relative bg-background dark:bg-[#0f172a]">
+                            <div className="flex-1 overflow-y-auto custom-scrollbar relative bg-[#0f172a]">
                                 <div className="p-8 md:p-12 space-y-12">
                                     <button
                                         onClick={() => setSelectedLeader(null)}
@@ -288,7 +288,7 @@ export const OrgCarousel = ({ data }: { data: OrgNodeData }) => {
                                                     <div
                                                         key={i}
                                                         onClick={() => handleMemberClick(child)}
-                                                        className="group flex items-center gap-5 p-5 rounded-2xl bg-muted/30 dark:bg-white/5 border border-border hover:border-humanika-pink/50 hover:bg-muted/50 dark:hover:bg-white/[0.07] transition-all hover:shadow-lg hover:shadow-humanika-pink/5 hover:-translate-y-1 cursor-pointer"
+                                                        className="group flex items-center gap-5 p-5 rounded-2xl bg-white/5 border border-border hover:border-humanika-pink/50 hover:bg-white/[0.07] transition-all hover:shadow-lg hover:shadow-humanika-pink/5 hover:-translate-y-1 cursor-pointer"
                                                     >
                                                         <div className="relative h-20 w-20 rounded-full overflow-hidden border-2 border-border shrink-0 group-hover:border-humanika-pink transition-colors shadow-lg">
                                                             {child.image ? (
