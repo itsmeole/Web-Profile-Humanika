@@ -31,7 +31,12 @@ export async function POST(request: Request) {
             const localPath = require("path").join(process.cwd(), path);
             await fs.writeFile(localPath, JSON.stringify(body, null, 2));
         } else {
-            throw new Error("Missing GitHub configuration (REPO_OWNER, REPO_NAME, GITHUB_TOKEN)");
+            const missing = [];
+            if (!owner) missing.push("REPO_OWNER");
+            if (!repo) missing.push("REPO_NAME");
+            if (!process.env.GITHUB_TOKEN) missing.push("GITHUB_TOKEN");
+
+            throw new Error(`Missing GitHub configuration: ${missing.join(", ")}`);
         }
 
         return NextResponse.json({ success: true });
