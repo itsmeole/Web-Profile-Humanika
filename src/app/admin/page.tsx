@@ -59,11 +59,12 @@ export default function AdminDashboard() {
             method: "POST",
             body: JSON.stringify(body),
         });
+        const data = await res.json();
         if (res.ok) {
             setStatus("Saved successfully!");
             setTimeout(() => setStatus(""), 2000);
         } else {
-            setStatus("Error saving.");
+            setStatus(`Error: ${data.error || "Unknown error"}`);
         }
     };
 
