@@ -83,7 +83,7 @@ export default function Home() {
               <div className="group rounded-2xl glass-card hover:border-humanika-pink/50 hover:shadow-2xl hover:shadow-humanika-pink/10 transition-all duration-300 p-8">
                 <h3 className="text-2xl font-bold text-humanika-blue mb-4 group-hover:text-humanika-pink transition-colors uppercase tracking-widest">Slogan</h3>
                 <p className="text-2xl font-serif italic text-foreground leading-relaxed">
-                  "Perempuan Berdaya, informatika berkarya, dari akademik untuk aksi, dari perempuan untuk perubahan"
+                  "Low Profile and No Talk Only"
                 </p>
               </div>
 
