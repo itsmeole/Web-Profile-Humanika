@@ -16,7 +16,7 @@
     },
     {
       "role": "Sekretaris Umum",
-      "name": "M Adi Wiaya",
+      "name": "M Adi Wijaya",
       "image": "/pengurus/Sekretaris Umum M Adi Wiaya.png",
       "children": [
         {
@@ -38,7 +38,7 @@
         },
         {
           "role": "Anggota Divisi Tekinkom",
-          "name": "nazriel Radithya",
+          "name": "Nazriel Radithya",
           "image": "/pengurus/Anggota Divisi Tekinkom - nazriel Radithya.png",
           "children": []
         },
@@ -116,7 +116,7 @@
         },
         {
           "role": "Sekretaris Divisi MBKO",
-          "name": "Muhammad Muahied",
+          "name": "Muhammad Mujahied",
           "image": "/pengurus/Sekretaris Divisi MBKO - Muhammad Muahied.png",
           "children": []
         }
