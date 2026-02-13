@@ -10,7 +10,7 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "HUMANIKA - Himpunan Mahasiswa Teknik Informatika",
+  title: "HUMANIKA",
   description: "Company Profile of HUMANIKA STT Wastukancana Purwakarta",
 };
 
