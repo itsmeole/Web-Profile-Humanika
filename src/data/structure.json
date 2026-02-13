@@ -93,7 +93,7 @@
           "period": "2025-2026"
         }
       ],
-      "name": "M Fadillah",
+      "name": "Muhammad Fadillah",
       "image": "/pengurus/Ketua Divisi Ekternal - M Fadillah.png",
       "originalRole": "Ketua Divisi Ekternal",
       "period": "2025-2026"
@@ -101,13 +101,6 @@
     {
       "role": "Ketua Divisi Kemahasiswaan",
       "children": [
-        {
-          "role": "Bendahara Divisi Kemahasiswaan",
-          "name": "Rifa Azzahra",
-          "image": "/pengurus/Bendahara Divisi Kemahasiswaan - Rifa Azzahra.png",
-          "children": [],
-          "period": "2025-2026"
-        },
         {
           "role": "Sekretaris Divisi Kemahasiswaan",
           "name": "Indra Fauzi",
