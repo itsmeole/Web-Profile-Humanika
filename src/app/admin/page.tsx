@@ -89,11 +89,11 @@ export default function AdminDashboard() {
                 if (data.success) {
                     onChange(data.url);
                 } else {
-                    alert("Upload failed: " + data.message);
+                    alert("Upload failed: " + (data.message || "Unknown error"));
                 }
-            } catch (err) {
+            } catch (err: any) {
                 console.error(err);
-                alert("Upload error");
+                alert("Upload error: " + (err.message || "Network Error"));
             } finally {
                 setUploading(false);
             }

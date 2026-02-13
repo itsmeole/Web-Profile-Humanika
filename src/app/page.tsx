@@ -194,16 +194,16 @@ export default function Home() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {newsData.slice(0, 3).map((news) => (
+            {newsData.slice(0, 6).map((news) => (
               <div key={news.id} className="group flex flex-col overflow-hidden rounded-2xl glass-card hover:border-humanika-pink/50 hover:shadow-2xl hover:shadow-humanika-pink/10 transition-all duration-300">
                 <div className="h-48 w-full bg-muted/20 relative overflow-hidden">
                   {/* News Image */}
                   {(news as any).image ? (
-                    <Image
+                    /* eslint-disable-next-line @next/next/no-img-element */
+                    <img
                       src={(news as any).image}
                       alt={news.title}
-                      fill
-                      className="object-cover transition-transform duration-500 group-hover:scale-110"
+                      className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-110"
                     />
                   ) : (
                     <div className="absolute inset-0 bg-neutral-800" />

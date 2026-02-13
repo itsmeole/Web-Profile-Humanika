@@ -25,6 +25,13 @@ export async function POST(request: Request) {
                 content: body,
                 branch
             });
+
+            // IMPROVEMENT: If in Dev mode, ALSO write to local file so changes appear immediately
+            if (process.env.NODE_ENV === "development") {
+                const fs = require("fs/promises");
+                const localPath = require("path").join(process.cwd(), path);
+                await fs.writeFile(localPath, JSON.stringify(body, null, 2));
+            }
         } else if (process.env.NODE_ENV === "development") {
             // Fallback to local FS for dev without internet/tokens
             const fs = require("fs/promises");
