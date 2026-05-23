@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { Container } from "@/components/layout/Container";
 import { cn } from "@/lib/utils";
@@ -15,9 +15,26 @@ const links = [
 
 export const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
+    const [isScrolled, setIsScrolled] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            setIsScrolled(window.scrollY > 50);
+        };
+        
+        window.addEventListener("scroll", handleScroll);
+        handleScroll(); // Initial check
+        
+        return () => window.removeEventListener("scroll", handleScroll);
+    }, []);
 
     return (
-        <nav className="sticky top-0 z-50 w-full border-b border-border bg-background/80 backdrop-blur-md">
+        <nav className={cn(
+            "fixed top-0 left-0 right-0 z-50 w-full transition-all duration-300",
+            isScrolled 
+                ? "border-b border-border bg-background/80 backdrop-blur-md py-0" 
+                : "border-transparent bg-transparent py-2"
+        )}>
             <div className="w-full px-6 md:px-12">
                 <div className="flex h-17 items-center justify-between">
                     {/* Logo */}

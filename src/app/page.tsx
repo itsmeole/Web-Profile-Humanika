@@ -8,47 +8,15 @@ import { OrgCarousel } from "@/components/features/OrgCarousel";
 import structureData from "@/data/structure.json";
 import newsData from "@/data/news.json";
 import { OrgNodeData } from "@/types/structure";
-
+import { HeroSection } from "@/components/ui/galaxy-interactive-hero-section";
 export default function Home() {
   return (
     <main className="min-h-screen flex flex-col bg-background text-foreground scroll-smooth">
       <Navbar />
 
       {/* Hero Section */}
-      <section id="home" className="relative flex min-h-[90vh] items-center justify-center overflow-hidden border-b border-white/10">
-        <div className="absolute inset-0 z-0 select-none pointer-events-none">
-          <Image
-            src="/foto-bersama.png"
-            alt="Foto Bersama Pengurus"
-            fill
-            className="object-cover opacity-85 blur-[3px]"
-            priority
-          />
-          <div className="absolute inset-0 bg-gradient-to-t from-background via-background/80 to-transparent"></div>
-        </div>
-
-        <Container className="relative z-10 flex flex-col items-center text-center space-y-8 animate-in fade-in zoom-in duration-1000">
-          <div className="inline-flex items-center rounded-full border border-humanika-pink/20 bg-humanika-pink/10 px-4 py-1.5 text-sm font-medium text-humanika-pink backdrop-blur-md shadow-inner shadow-humanika-pink/20 animate-pulse">
-            Periode 2025 - 2026
-          </div>
-
-          <h1 className="max-w-5xl text-5xl font-extrabold tracking-tight bg-gradient-to-r from-humanika-blue via-pink-500 to-humanika-pink bg-clip-text text-transparent md:text-7xl lg:text-8xl pb-2">
-            HUMANIKA
-          </h1>
-
-          <p className="max-w-2xl text-lg text-muted-foreground md:text-xl drop-shadow-md">
-            Himpunan Mahasiswa Teknik Informatika STT Wastukancana Purwakarta.
-            "Low Profile and No Talk Only".
-          </p>
-
-          <div className="flex flex-col sm:flex-row gap-4 pt-4">
-            <Link href="#about">
-              <Button variant="premium" size="lg" className="min-w-[160px] text-lg h-12 rounded-full">
-                Tentang Kami
-              </Button>
-            </Link>
-          </div>
-        </Container>
+      <section id="home">
+        <HeroSection />
       </section>
 
       {/* About / GBHO Section */}
